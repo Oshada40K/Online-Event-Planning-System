@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app version="4.0" 
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee  http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
+    
+    <servlet>
+    <servlet-name>StaffRejister</servlet-name>
+    <servlet-class>Servlet.StaffRejister</servlet-class>
+    </servlet>
+
+ 	<servlet-mapping>
+     <servlet-name>StaffRejister</servlet-name>
+     <url-pattern>/StaffRejister</url-pattern>
+    </servlet-mapping>
+    
+    
+        
+    <servlet>
+   	 <servlet-name>mLogin</servlet-name>
+     <servlet-class>Servlet.mLogin</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+ 	  <servlet-name>mLogin</servlet-name>
+      <url-pattern>/mLogin</url-pattern>
+    </servlet-mapping>
+    
+          
+    
+    <servlet>
+     <servlet-name>mgcustomer</servlet-name>
+     <servlet-class>Servlet.mgcustomer</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+     <servlet-name>mgcustomer</servlet-name>
+     <url-pattern>/mgcustomer</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+      <servlet-name>mgUpdate</servlet-name>
+      <servlet-class>Servlet.mgUpdate</servlet-class>
+    </servlet>
+
+  	<servlet-mapping>
+     <servlet-name>mgUpdate</servlet-name>
+     <url-pattern>/mgUpdate</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+     <servlet-name>databutton</servlet-name>
+   	 <servlet-class>Servlet.databutton</servlet-class>
+   </servlet>
+
+    <servlet-mapping>
+     <servlet-name>databutton</servlet-name>
+     <url-pattern>/databutton</url-pattern>
+   </servlet-mapping>
+    
+	    
+    <servlet>
+     <servlet-name>mgdelete</servlet-name>
+   	 <servlet-class>Servlet.mgdelete</servlet-class>
+   </servlet>
+
+    <servlet-mapping>
+     <servlet-name>mgdelete</servlet-name>
+     <url-pattern>/mgdelete</url-pattern>
+   </servlet-mapping>
+    
+    <servlet>
+     <servlet-name>addcomplaint</servlet-name>
+   	 <servlet-class>Servlet.addcomplaint</servlet-class>
+   </servlet>
+
+    <servlet-mapping>
+     <servlet-name>addcomplaint</servlet-name>
+     <url-pattern>/addcomplaint</url-pattern>
+   </servlet-mapping>
+    
+
+    <servlet>
+     <servlet-name>comvalidate</servlet-name>
+   	 <servlet-class>Servlet.comvalidate</servlet-class>
+   </servlet>
+
+    <servlet-mapping>
+     <servlet-name>comvalidate</servlet-name>
+     <url-pattern>/comvalidate</url-pattern>
+   </servlet-mapping>
+    
+    
+    <servlet>
+     <servlet-name>comtable</servlet-name>
+   	 <servlet-class>Servlet.comtable</servlet-class>
+   </servlet>
+
+    <servlet-mapping>
+     <servlet-name>comtable</servlet-name>
+     <url-pattern>/comtable</url-pattern>
+   </servlet-mapping>
+    
+      <servlet>
+     <servlet-name>  comupdate</servlet-name>
+   	 <servlet-class>Servlet.  comupdate</servlet-class>
+   </servlet>
+
+    <servlet-mapping>
+     <servlet-name>comupdate</servlet-name>
+     <url-pattern>/comupdate</url-pattern>
+   </servlet-mapping>
+    
+          <servlet>
+     <servlet-name>comdelete</servlet-name>
+   	 <servlet-class>Servlet.comdelete</servlet-class>
+   </servlet>
+
+    <servlet-mapping>
+     <servlet-name>comdelete</servlet-name>
+     <url-pattern>/comdelete</url-pattern>
+   </servlet-mapping>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+	  <servlet>
+	<servlet-name>registerServlet</servlet-name>
+	<servlet-class>Servlet.registerServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>registerServlet</servlet-name>
+	<url-pattern>/registerserv</url-pattern>
+	</servlet-mapping>
+	<servlet>
+	<servlet-name>loginServlet</servlet-name>
+	<servlet-class>Servlet.loginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>loginServlet</servlet-name>
+	<url-pattern>/loginserv</url-pattern>
+	</servlet-mapping>
+	<servlet>
+	<servlet-name>AdminSuppliers</servlet-name>
+	<servlet-class>Servlet.AdminSuppliers</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>AdminSuppliers</servlet-name>
+	<url-pattern>/adminserv</url-pattern>
+	</servlet-mapping>
+	<servlet>
+	<servlet-name>singleDataButton</servlet-name>
+	<servlet-class>Servlet.singleDataButton</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>singleDataButton</servlet-name>
+	<url-pattern>/singledata</url-pattern>
+	</servlet-mapping>
+	<servlet>
+	<servlet-name>updateSupplier</servlet-name>
+	<servlet-class>Servlet.updateSupplier</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>updateSupplier</servlet-name>
+	<url-pattern>/updateserv</url-pattern>
+	</servlet-mapping>
+	<servlet>
+	<servlet-name>deleteSupplier</servlet-name>
+	<servlet-class>Servlet.deleteSupplier</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>deleteSupplier</servlet-name>
+	<url-pattern>/deletesup</url-pattern>
+	</servlet-mapping>
+	 <servlet>
+        <servlet-name>adminRegisterServlet</servlet-name>
+        <servlet-class>srevlet.adminRegisterServlet</servlet-class>
+   </servlet>
+   
+   <servlet-mapping>
+        <servlet-name>adminRegisterServlet</servlet-name>
+        <url-pattern>/adminRegisterServlet</url-pattern>
+   </servlet-mapping>
+
+
+   <servlet>
+        <servlet-name>adminLoginServlet</servlet-name>
+        <servlet-class>srevlet.adminLoginServlet</servlet-class>
+   </servlet>
+   
+   <servlet-mapping>
+        <servlet-name>adminLoginServlet</servlet-name>
+        <url-pattern>/adminLoginServlet</url-pattern>
+   </servlet-mapping>
+   
+   <servlet>
+        <servlet-name>updateadmin</servlet-name>
+        <servlet-class>srevlet.updateadmin</servlet-class>
+   </servlet>
+   
+   <servlet-mapping>
+        <servlet-name>updateadmin</servlet-name>
+        <url-pattern>/updateadmin</url-pattern>
+   </servlet-mapping>
+   
+    <servlet>
+        <servlet-name>admincustomer</servlet-name>
+        <servlet-class>srevlet.admincustomer</servlet-class>
+   </servlet>
+   
+   <servlet-mapping>
+        <servlet-name>admincustomer</servlet-name>
+        <url-pattern>/admincustomer</url-pattern>
+   </servlet-mapping>
+   
+      <servlet>
+        <servlet-name>singleData</servlet-name>
+        <servlet-class>srevlet.singleData</servlet-class>
+   </servlet>
+   
+   <servlet-mapping>
+        <servlet-name>singleData</servlet-name>
+        <url-pattern>/singleData</url-pattern>
+   </servlet-mapping>
+   
+         <servlet>
+        <servlet-name>delete</servlet-name>
+        <servlet-class>srevlet.delete</servlet-class>
+   </servlet>
+   
+   <servlet-mapping>
+        <servlet-name>delete</servlet-name>
+        <url-pattern>/delete</url-pattern>
+   </servlet-mapping>
+   
+           <servlet>
+        <servlet-name>addorderservlet</servlet-name>
+        <servlet-class>srevlet.addorderservlet</servlet-class>
+   </servlet>
+   
+   <servlet-mapping>
+        <servlet-name>addorderservlet</servlet-name>
+        <url-pattern>/addorderservlet</url-pattern>
+   </servlet-mapping>
+   
+   
+              <servlet>
+        <servlet-name>confirmorderservlet</servlet-name>
+        <servlet-class>srevlet.confirmorderservlet</servlet-class>
+   </servlet>
+   
+   <servlet-mapping>
+        <servlet-name>confirmorderservlet</servlet-name>
+        <url-pattern>/confirmorderservlet</url-pattern>
+   </servlet-mapping>
+   
+                <servlet>
+        <servlet-name>orderlistservlet</servlet-name>
+        <servlet-class>srevlet.orderlistservlet</servlet-class>
+   </servlet>
+   
+   <servlet-mapping>
+        <servlet-name>orderlistservlet</servlet-name>
+        <url-pattern>/orderlistservlet</url-pattern>
+   </servlet-mapping>
+   
+                  <servlet>
+        <servlet-name>singalorderservlet</servlet-name>
+        <servlet-class>srevlet.singalorderservlet</servlet-class>
+   </servlet>
+   
+   <servlet-mapping>
+        <servlet-name>singalorderservlet</servlet-name>
+        <url-pattern>/singalorderservlet</url-pattern>
+   </servlet-mapping>
+   
+                     <servlet>
+        <servlet-name>updateorderservlet</servlet-name>
+        <servlet-class>srevlet.updateorderservlet</servlet-class>
+   </servlet>
+   
+   <servlet-mapping>
+        <servlet-name>updateorderservlet</servlet-name>
+        <url-pattern>/updateorderservlet</url-pattern>
+   </servlet-mapping>
+   
+    <servlet>
+        <servlet-name>deleteorder</servlet-name>
+        <servlet-class>srevlet.deleteorder</servlet-class>
+   </servlet>
+   
+   <servlet-mapping>
+        <servlet-name>deleteorder</servlet-name>
+        <url-pattern>/deleteorder</url-pattern>
+   </servlet-mapping>
+   
+    <servlet>
+        <servlet-name>contactlist</servlet-name>
+        <servlet-class>srevlet.contactlist</servlet-class>
+   </servlet>
+   
+   <servlet-mapping>
+        <servlet-name>contactlist</servlet-name>
+        <url-pattern>/contactlist</url-pattern>
+   </servlet-mapping>
+   
+       <servlet>
+        <servlet-name>contactRegister</servlet-name>
+        <servlet-class>srevlet.contactRegister</servlet-class>
+   </servlet>
+   
+   <servlet-mapping>
+        <servlet-name>contactRegister</servlet-name>
+        <url-pattern>/contactRegister</url-pattern>
+   </servlet-mapping>
+   
+   
+         <servlet>
+        <servlet-name>contactsingal</servlet-name>
+        <servlet-class>srevlet.contactsingal</servlet-class>
+   </servlet>
+   
+   <servlet-mapping>
+        <servlet-name>contactsingal</servlet-name>
+        <url-pattern>/contactsingal</url-pattern>
+   </servlet-mapping>
+   
+           <servlet>
+        <servlet-name>updatecontact</servlet-name>
+        <servlet-class>srevlet.updatecontact</servlet-class>
+   </servlet>
+   
+   <servlet-mapping>
+        <servlet-name>updatecontact</servlet-name>
+        <url-pattern>/updatecontact</url-pattern>
+   </servlet-mapping>
+   <servlet>
+         	<servlet-name>addCustomer</servlet-name>
+         	<servlet-class>Servlet.addCustomer</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>addCustomer</servlet-name>
+         	<url-pattern>/addcus</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>LoginServelet</servlet-name>
+         	<servlet-class>Servlet.LoginServelet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>LoginServelet</servlet-name>
+         	<url-pattern>/logserve</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>AdminCustomers</servlet-name>
+         	<servlet-class>Servlet.AdminCustomers</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>AdminCustomers</servlet-name>
+         	<url-pattern>/admincus</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>SignleDataButton</servlet-name>
+         	<servlet-class>Servlet.SignleDataButton</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>SignleDataButton</servlet-name>
+         	<url-pattern>/singlebutton</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>UpdateCustomer</servlet-name>
+         	<servlet-class>Servlet.UpdateCustomer</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>UpdateCustomer</servlet-name>
+         	<url-pattern>updatecus</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>DeleteCustomer</servlet-name>
+         	<servlet-class>Servlet.DeleteCustomer</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>DeleteCustomer</servlet-name>
+         	<url-pattern>deletecus</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>PaymentServlet</servlet-name>
+         	<servlet-class>Servlet.PaymentServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>PaymentServlet</servlet-name>
+         	<url-pattern>paymentserve</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>PaymentConfirmation</servlet-name>
+         	<servlet-class>Servlet.PaymentConfirmation</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>PaymentConfirmation</servlet-name>
+         	<url-pattern>confirmpay</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>TablePaymentSercve</servlet-name>
+         	<servlet-class>Servlet.TablePaymentSercve</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>TablePaymentSercve</servlet-name>
+         	<url-pattern>tablepay</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>PaymentDataButton</servlet-name>
+         	<servlet-class>Servlet.PaymentDataButton</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>PaymentDataButton</servlet-name>
+         	<url-pattern>paydatabutton</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>UpdatePayment</servlet-name>
+         	<servlet-class>Servlet.UpdatePayment</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>UpdatePayment</servlet-name>
+         	<url-pattern>updatepay</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>DeletePayment</servlet-name>
+         	<servlet-class>Servlet.DeletePayment</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>DeletePayment</servlet-name>
+         	<url-pattern>deletepay</url-pattern>
+         </servlet-mapping>
+
+
+
+</web-app>
